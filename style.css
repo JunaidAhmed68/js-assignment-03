@@ -1,0 +1,392 @@
+button{
+  font-size: 20px;
+  padding: 18px 21px;
+  background-color: #333333;
+  border: 1px solid rgb(238, 195, 195);
+  color: white;
+}
+body{
+  height: 100vh;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ background-color: gray;
+}
+.mainDiv{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+row-gap: 8px;
+align-items: center;
+background-color:black;
+width: 330px;
+height: 490px;
+border-radius: 15px;
+}
+.row button{
+  padding: 18px 26px;
+  border-radius: 30px;
+}
+.row1 button{
+  border-radius: 30px;
+}
+#zero{
+  padding: 18px 62px;
+}
+#equal{
+  padding: 18px 40px;
+  background-color: lawngreen;
+  color: black;
+}
+#divide{
+  padding: 15.5px 37px;
+  font-size: 23px;
+}
+#rem{
+  padding: 18px 15px;
+  color: black;
+}
+#plus,#mul{
+  padding: 18px 39px;
+}
+#min{
+  padding: 18px 41px;
+}
+#del,#ac{
+  padding: 18px 18.5px;
+  background-color: rgb(128, 128, 128);
+  color: black;
+}
+
+#rem{
+  padding: 18px 18px;
+}
+.screen{
+  font-size: 35px;
+  padding: 20px 10px;
+  color:white;
+  border: 1px solid black;
+  height: 70px;
+  width: 272px ;
+}
+.ansScreen{
+  display: flex;
+  justify-content: right;
+  align-items: end;
+  padding:20px 10px;
+  font-size: 39px;
+  color: #FF9702;
+}
+.orColor{
+  background-color: #FF9702;
+}
+/* ------------------- hover/active buttons----------------------*/
+button:hover{
+  opacity: 90%;
+}
+button:active{
+  opacity: 60%;
+}
+/* -------------- media querry-------------------------------- */
+@media (max-width:550px) {
+  button{
+    font-size: 17px;
+    padding: 10px 13px;
+  }
+  body{
+    height:auto;
+
+  }
+  .mainDiv{
+  border-radius: 15px;
+  }
+  .row button{
+    padding: 13px 19px;
+  }
+  
+  #zero{
+    padding: 13px 45px;
+  }
+  #equal{
+    padding: 13px 26px;
+  }
+  #divide{
+    padding: 11px 20px;
+    font-size: 20px;
+  }
+  #rem{
+    padding: 10px 13px;
+    font-size: 12px;
+  }
+  #plus,#mul{
+    padding: 13px 24px;
+  }
+  #min{
+    padding: 13px 25px;
+  }
+  #del,#ac{
+    padding: 13px 12px;
+  }
+  
+  #rem{
+    padding: 18px 18px;
+  }
+  .screen{
+    font-size: 29px;
+    padding: 20px 10px;
+    color:white;
+    height: 70px;
+    width: 200px;
+  }
+  .ansScreen{
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    padding:20px 10px;
+    font-size: 33px;
+    color: #FF9702;
+    border: 1px solid black;
+    height: 70px;
+    width: 200px;
+   
+
+  }
+  .orColor{
+    background-color: #FF9702;
+  }
+  
+}
+button{
+  font-size: 20px;
+  padding: 18px 21px;
+  background-color: #333333;
+  border: 1px solid black;
+  color: white;
+}
+body{
+  height: 100vh;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+.mainDiv{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+row-gap: 8px;
+align-items: center;
+background-color:black;
+width: 330px;
+height: 490px;
+border-radius: 15px;
+}
+.row button{
+  padding: 18px 26px;
+  border-radius: 30px;
+}
+.row1 button{
+  border-radius: 30px;
+}
+#zero{
+  padding: 18px 62px;
+}
+#equal{
+  padding: 18px 40px;
+  background-color: lawngreen;
+  color: black;
+}
+#divide{
+  padding: 15.5px 37px;
+  font-size: 23px;
+}
+#rem{
+  padding: 18px 15px;
+  color: black;
+}
+#plus,#mul{
+  padding: 18px 39px;
+}
+#min{
+  padding: 18px 41px;
+}
+#del,#ac{
+  padding: 18px 18.5px;
+  background-color: rgb(128, 128, 128);
+  color: black;
+}
+
+#rem{
+  padding: 18px 18px;
+}
+.screen{
+  font-size: 35px;
+  padding: 20px 10px;
+  color:white;
+  border: 1px solid black;
+  height: 70px;
+  width: 272px ;
+}
+.ansScreen{
+  display: flex;
+  justify-content: right;
+  align-items: end;
+  padding:20px 10px;
+  font-size: 39px;
+  color: #FF9702;
+}
+.orColor{
+  background-color: #FF9702;
+}
+/* ------------------- hover/active buttons----------------------*/
+button:hover{
+  opacity: 90%;
+}
+button:active{
+  opacity: 60%;
+}
+/* -------------- media querry-------------------------------- */
+@media (max-width:550px) {
+  button{
+    font-size: 17px;
+    padding: 10px 13px;
+  }
+  body{
+    height:auto;
+
+  }
+  .mainDiv{
+  border-radius: 15px;
+  }
+  .row button{
+    padding: 13px 19px;
+  }
+  
+  #zero{
+    padding: 13px 45px;
+  }
+  #equal{
+    padding: 13px 26px;
+  }
+  #divide{
+    padding: 11px 20px;
+    font-size: 20px;
+  }
+  #rem{
+    padding: 10px 13px;
+    font-size: 12px;
+  }
+  #plus,#mul{
+    padding: 13px 24px;
+  }
+  #min{
+    padding: 13px 25px;
+  }
+  #del,#ac{
+    padding: 13px 12px;
+  }
+  
+  #rem{
+    padding: 18px 18px;
+  }
+  .screen{
+    font-size: 29px;
+    padding: 20px 10px;
+    color:white;
+    height: 70px;
+    width: 200px;
+  }
+  .ansScreen{
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    padding:20px 10px;
+    font-size: 33px;
+    color: #FF9702;
+    border: 1px solid black;
+    height: 70px;
+    width: 200px;
+   
+
+  }
+  .orColor{
+    background-color: #FF9702;
+  }
+  
+}
+
+@media (min-width:1441px) {
+  button{
+    font-size: 22px;
+    padding: 20px 21px;
+    background-color: #333333;
+    border: 1px solid black;
+    color: white;
+  }
+  
+  .mainDiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 8px;
+  align-items: center;
+  background-color:black;
+  width: 360px;
+  height: 560px;
+  border-radius: 19px;
+  }
+  .row button{
+    padding: 20px 28px;
+    border-radius: 27px;
+  }
+  .row1 button{
+    border-radius: 27px;
+  }
+  #zero{
+    padding: 20px 65px;
+  }
+  #equal{
+    padding: 20px 44px;
+  }
+  #divide{
+    padding: 19px 42px;
+    font-size: 23px;
+  }
+  #rem{
+    padding: 20px 22px;
+  }
+  #plus,#mul{
+    padding: 20px 44px;
+  }
+  #min{
+    padding: 20px 45px;
+  }
+  #del,#ac{
+    padding: 20px 20px;
+  }
+  
+  #rem{
+    padding: 24px 20px;
+  }
+  .screen{
+    font-size: 48px;
+    padding: 30px 20px;
+    border: 1px solid black;
+    height: 70px;
+    width: 290px ;
+  }
+  .ansScreen{
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    padding:35px 20px;
+    font-size: 47px;
+    color: #FF9702;
+    height: 70px;
+    width: 272px ;
+  }
+}
