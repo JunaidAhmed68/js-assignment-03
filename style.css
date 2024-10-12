@@ -1,4 +1,5 @@
-button{
+old
+/* button{
   font-size: 20px;
   padding: 18px 21px;
   background-color: #333333;
@@ -83,14 +84,14 @@ border-radius: 15px;
   background-color: #FF9702;
 }
 /* ------------------- hover/active buttons----------------------*/
-button:hover{
+/* button:hover{
   opacity: 90%;
 }
 button:active{
   opacity: 60%;
-}
+} */
 /* -------------- media querry-------------------------------- */
-@media (max-width:550px) {
+/* @media (max-width:550px) {
   button{
     font-size: 17px;
     padding: 10px 13px;
@@ -241,15 +242,15 @@ border-radius: 15px;
 .orColor{
   background-color: #FF9702;
 }
-/* ------------------- hover/active buttons----------------------*/
-button:hover{
+/* ------------------- hover/active buttons----------------------*/ */
+/* button:hover{
   opacity: 90%;
 }
 button:active{
   opacity: 60%;
 }
-/* -------------- media querry-------------------------------- */
-@media (max-width:550px) {
+/* -------------- media querry-------------------------------- */ */
+/* @media (max-width:550px) {
   button{
     font-size: 17px;
     padding: 10px 13px;
@@ -389,4 +390,4 @@ button:active{
     height: 70px;
     width: 272px ;
   }
-}
+} */ */
