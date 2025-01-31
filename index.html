@@ -3,46 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
     <title>Simple Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
+    <link rel="manifest" href="./images/site.webmanifest">
 </head>
 <body>
-
-   <div class="mainDiv">
-    <div class="screen"></div>
-    <div class="row1"> 
-     <button onClick="getValue('allClear')" id="ac">AC</button>
-     <button onClick="getValue('delete')" id="del">Del</button>
-     <button onClick="getValue('%')" id="rem" class="orColor">%</button>
-     <button onClick="getValue('/')" id="divide" class="orColor">÷</button>
-   </div>
-     <div class="row2 row">
-       <button onClick="getValue(7)">7</button>
-       <button onClick="getValue(8)">8</button>
-       <button onClick="getValue(9)">9</button>
-       <button onClick="getValue('*')" id="mul" class="orColor">x</button>
-     </div>
-     <div class="row3 row">
-       <button onClick="getValue(4)">4</button>
-       <button onClick="getValue(5)">5</button>
-       <button onClick="getValue(6)">6</button>
-       <button onClick="getValue('-')" id="min" class="orColor">-</button>
-     </div>
-    <div class="row4 row">
-     <button onClick="getValue(1)">1</button>
-     <button onClick="getValue(2)">2</button>
-     <button onClick="getValue(3)">3</button>
-     <button onClick="getValue('+')" id="plus" class="orColor">+</button>
-   </div>
-   <div class="row5 row">  
-     <button onClick="getValue(0)" id="zero">0</button>
-     <button onClick="getValue('.')" id="dot">.</button>
-     <button onClick="getValue('=')" id="equal">=</button>
-   </div>
- 
-   </div>
-
-    
-    <script src="./app.js"></script>
+    <div class="calculator">
+        <div class="screen" id="screen">0</div>
+        <div class="buttons">
+            <button onclick="clearScreen()" class="gray">AC</button>
+            <button onclick="deleteLast()" class="gray">Del</button>
+            <button onclick="appendValue('%')" class="orange">%</button>
+            <button onclick="appendValue('/')" class="orange">&divide;</button>
+            <button onclick="appendValue('7')">7</button>
+            <button onclick="appendValue('8')">8</button>
+            <button onclick="appendValue('9')">9</button>
+            <button onclick="appendValue('*')" class="orange">&times;</button>
+            <button onclick="appendValue('4')">4</button>
+            <button onclick="appendValue('5')">5</button>
+            <button onclick="appendValue('6')">6</button>
+            <button onclick="appendValue('-')" class="orange">-</button>
+            <button onclick="appendValue('1')">1</button>
+            <button onclick="appendValue('2')">2</button>
+            <button onclick="appendValue('3')">3</button>
+            <button onclick="appendValue('+')" class="orange">+</button>
+            <button onclick="appendValue('0')" class="zero">0</button>
+            <button onclick="appendValue('.')">.</button>
+            <button onclick="calculate()" class="equal">=</button>
+        </div>
+    </div>
+    <script src="./app.js" ></script>
 </body>
 </html>
